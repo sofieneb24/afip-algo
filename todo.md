@@ -10,22 +10,27 @@
 
 **Niveau 1 - Opérations de Base**
 
-1. Fonction `supprimer_entete(fichier: str) -> list`
+1. Fonction `charger_donnees(fichier: str) -> list`
+   - Récupérer les données depuis un fichier.
+   - Exemple d'entrée : Nom du fichier (ex. "FIFA-1998.txt").
+   - Exemple de sortie : Liste des lignes du fichier après récupération des données contenus dans le fichier d'entré.
+  
+2. Fonction `supprimer_entete(fichier: str) -> list`
    - Supprime la première ligne (en-tête) du fichier txt.
    - Exemple d'entrée : Nom du fichier (ex. "FIFA-1998.txt").
    - Exemple de sortie : Liste des lignes du fichier après suppression de l'en-tête.
 
-2. Fonction `supprimer_colonne(fichier: str, nom_colonne: str) -> list`
+3. Fonction `supprimer_colonne(fichier: str, nom_colonne: str) -> list`
    - Supprime la colonne spécifiée du fichier txt.
    - Exemple d'entrée : Nom du fichier (ex. "FIFA-1998.txt"), nom de la colonne (ex. "Position").
    - Exemple de sortie : Liste des lignes du fichier après suppression de la colonne.
 
-3. Fonction `lignes_aleatoires(fichier: str, nombre_lignes: int) -> list`
+4. Fonction `lignes_aleatoires(fichier: str, nombre_lignes: int) -> list`
    - Mélanger les lignes au hasard du fichier txt.
    - Exemple d'entrée : Nom du fichier (ex. "FIFA-1998.txt"), nombre de lignes (ex. 5).
    - Exemple de sortie : Liste des lignes sélectionnées au hasard.
 
-4. Fonction `afficher_equipe_trois_lettres(fichier: str) -> list`
+5. Fonction `afficher_equipe_trois_lettres(fichier: str) -> list`
    - Affiche le nom de l'équipe en utilisant uniquement les trois premières lettres du nom.
    - Exemple d'entrée : Nom du fichier (ex. "FIFA-1998.txt").
    - Exemple de sortie : Liste des noms d'équipe abrégés.
