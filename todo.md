@@ -4,7 +4,7 @@
 
 - Toutes les fonctions et structures de données doivent être créées à partir de zéro, en utilisant uniquement les types de données et structures de base du langage, sans recourir à des fonctions ou méthodes avancées du langage.
 - Aucune utilisation de fonctions de recherche ou de tri intégrées. Les opérations de recherche, de tri, d'ajout et de suppression doivent être implémentées manuellement.
-
+- La mission doit être réalisée en utilisant exclusivement le langage Python.
 
 ### Tâches à Réaliser
 
@@ -25,15 +25,45 @@
    - Exemple d'entrée : Nom du fichier (ex. "FIFA-1998.txt"), nom de la colonne (ex. "Position").
    - Exemple de sortie : Liste des lignes du fichier après suppression de la colonne.
 
-4. Fonction `lignes_aleatoires(fichier: str, nombre_lignes: int) -> list`
-   - Mélanger les lignes au hasard du fichier txt.
-   - Exemple d'entrée : Nom du fichier (ex. "FIFA-1998.txt"), nombre de lignes (ex. 5).
-   - Exemple de sortie : Liste des lignes sélectionnées au hasard.
-
-5. Fonction `afficher_equipe_trois_lettres(fichier: str) -> list`
-   - Affiche le nom de l'équipe en utilisant uniquement les trois premières lettres du nom.
+4. Fonction `melanger_lignes(donnee) -> list`
    - Exemple d'entrée : Nom du fichier (ex. "FIFA-1998.txt").
-   - Exemple de sortie : Liste des noms d'équipe abrégés.
+   - Exemple de sortie : Liste des lignes triées au hasard.
+
+5. Fonction `afficher_nom_trois_lettres(str) -> str`
+   - Affiche lun texte en utilisant uniquement les trois premières lettres.
+   - Exemple d'entrée : Nom du fichier (.. Espagne, France).
+   - Exemple de sortie : mot abrégé (ESP, FRA).
+
+6. Fonction `enregistrer_fichier("donnees, fichier.txt") -> fichier.txt`
+   - Enregistre les données dans un fichier.
+   - Exemple d'entrée : données triées (.. France, Espagne, Argentine).
+   - Exemple de sortie : FIFA_1998.txt à jour.
+
+**Niveau 2 - Calculs Statistiques**
+
+5. Fonction `calculer_points(fichier: str) -> dict`
+   - Calcule le nombre de points pour chaque équipe en fonction des victoires et des matchs nuls.
+   - Exemple d'entrée : Nom du fichier (ex. "FIFA-1998.txt").
+   - Exemple de sortie : Dictionnaire des équipes et de leurs points.
+
+6. Fonction `calculer_difference_buts(fichier: str) -> dict`
+   - Calcule la différence de buts pour chaque équipe.
+   - Exemple d'entrée : Nom du fichier (ex. "FIFA-1998.txt").
+   - Exemple de sortie : Dictionnaire des équipes et de leur différence de buts.
+
+**Niveau 3 - Classement et Qualifications**
+
+1. Fonction `trier_par_nom_equipe("donnees") -> list`
+   - Trier la liste des équipes par nom.
+   - Exemple d'entrée : Nom du fichier (.. France, Espagne, Argentine).
+   - Exemple de sortie : la liste des équipes triée par nom abrégé (ARG, ESP, FRA).
+
+2. Fonction `trier_equipes_par_position(donnees) -> list`
+   - Trie les équipes par position.
+   - Exemple d'entrée : Nom du fichier (ex. "FIFA-1998.txt").
+   - Exemple de sortie : Liste des équipes triées par position.
+
+   
 
 
 ### Note
