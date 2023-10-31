@@ -68,4 +68,4 @@
 
 ### Note
 
-Cette mission permettra de renforcer vos compétences en programmation Python, en algorithmie et en analyse de données, tout en vous plongeant dans l'excitation d'un des événements sportifs les plus importants au monde. Bonne chance !
+Cette mission permettra de renforcer vos compétences en programmation, en algorithmie et en analyse de données, tout en vous plongeant dans l'excitation d'un des événements sportifs les plus importants au monde. Bonne chance !
