@@ -20,17 +20,12 @@
    - Exemple d'entrée : Nom du fichier (ex. "FIFA-1998.txt").
    - Exemple de sortie : Liste des lignes du fichier après suppression de l'en-tête.
 
-3. Fonction `supprimer_colonne(fichier: str, nom_colonne: str) -> list`
-   - Supprime la colonne spécifiée du fichier txt.
-   - Exemple d'entrée : Nom du fichier (ex. "FIFA-1998.txt"), nom de la colonne (ex. "Position").
-   - Exemple de sortie : Liste des lignes du fichier après suppression de la colonne.
-
-5. Fonction `afficher_nom_trois_lettres(str) -> str`
+3. Fonction `afficher_nom_trois_lettres(str) -> str`
    - Affiche lun texte en utilisant uniquement les trois premières lettres.
    - Exemple d'entrée : Nom du fichier (.. Espagne, France).
    - Exemple de sortie : mot abrégé (ESP, FRA).
 
-6. Fonction `enregistrer_fichier("donnees, fichier.txt") -> fichier.txt`
+4. Fonction `enregistrer_fichier("donnees, fichier.ext") -> fichier.ext`
    - Enregistre les données dans un fichier.
    - Exemple d'entrée : données triées (.. France, Espagne, Argentine).
    - Exemple de sortie : FIFA_1998.txt à jour.
@@ -53,12 +48,17 @@
 
 **Niveau 3 - Classement et Qualifications**
 
-1. Fonction `trier_par_nom_equipe("donnees") -> list`
+1. Fonction `supprimer_colonne(fichier: str, nom_colonne: str) -> list`
+   - Supprime la colonne spécifiée du fichier txt.
+   - Exemple d'entrée : Nom du fichier (ex. "FIFA-1998.txt"), nom de la colonne (ex. "Position").
+   - Exemple de sortie : Liste des lignes du fichier après suppression de la colonne.
+
+2. Fonction `trier_par_nom_equipe("donnees") -> list`
    - Trier la liste des équipes par nom.
    - Exemple d'entrée : Nom du fichier (.. France, Espagne, Argentine).
    - Exemple de sortie : la liste des équipes triée par nom abrégé (ARG, ESP, FRA).
 
-2. Fonction `trier_equipes_par_position(donnees) -> list`
+3. Fonction `trier_equipes_par_position(donnees) -> list`
    - Trie les équipes par position.
    - Exemple d'entrée : Nom du fichier (ex. "FIFA-1998.txt").
    - Exemple de sortie : Liste des équipes triées par position.
