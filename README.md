@@ -1,1 +1,1 @@
-# afip-algo
+# algo
