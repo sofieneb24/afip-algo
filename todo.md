@@ -4,7 +4,7 @@
 
 - Toutes les fonctions et structures de données doivent être créées à partir de zéro, en utilisant uniquement les types de données et structures de base du langage, sans recourir à des fonctions ou méthodes avancées du langage.
 - Aucune utilisation de fonctions de recherche ou de tri intégrées. Les opérations de recherche, de tri, d'ajout et de suppression doivent être implémentées manuellement.
-- La mission doit être réalisée en utilisant exclusivement le langage Python.
+
 
 ### Tâches à Réaliser
 
