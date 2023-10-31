@@ -25,10 +25,6 @@
    - Exemple d'entrée : Nom du fichier (ex. "FIFA-1998.txt"), nom de la colonne (ex. "Position").
    - Exemple de sortie : Liste des lignes du fichier après suppression de la colonne.
 
-4. Fonction `melanger_lignes(donnee) -> list`
-   - Exemple d'entrée : Nom du fichier (ex. "FIFA-1998.txt").
-   - Exemple de sortie : Liste des lignes triées au hasard.
-
 5. Fonction `afficher_nom_trois_lettres(str) -> str`
    - Affiche lun texte en utilisant uniquement les trois premières lettres.
    - Exemple d'entrée : Nom du fichier (.. Espagne, France).
@@ -41,12 +37,16 @@
 
 **Niveau 2 - Calculs Statistiques**
 
-5. Fonction `calculer_points(fichier: str) -> dict`
+1. Fonction `melanger_lignes(donnee) -> list`
+   - Exemple d'entrée : Nom du fichier (ex. "FIFA-1998.txt").
+   - Exemple de sortie : Liste des lignes triées au hasard.
+
+2. Fonction `calculer_points(fichier: str) -> dict`
    - Calcule le nombre de points pour chaque équipe en fonction des victoires et des matchs nuls.
    - Exemple d'entrée : Nom du fichier (ex. "FIFA-1998.txt").
    - Exemple de sortie : Dictionnaire des équipes et de leurs points.
 
-6. Fonction `calculer_difference_buts(fichier: str) -> dict`
+3. Fonction `calculer_difference_buts(fichier: str) -> dict`
    - Calcule la différence de buts pour chaque équipe.
    - Exemple d'entrée : Nom du fichier (ex. "FIFA-1998.txt").
    - Exemple de sortie : Dictionnaire des équipes et de leur différence de buts.
